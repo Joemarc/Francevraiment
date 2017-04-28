@@ -2160,6 +2160,9 @@
   font-size: 16px;
 }
 
+.white-text-2 {
+  color: #FFFFFF !important;
+}
 .transparent {
   background-color: transparent !important;
 }
@@ -2187,7 +2190,7 @@ html {
  * Remove default margin.
  */
 body {
-  background-color: white;
+  background-color: #f2f2f2;
   margin: 0;
 }
 
@@ -3380,7 +3383,7 @@ nav ul a span.badge {
 }
 
 .container_2 {
-  background-color: white;
+  background-color: #f2f2f2;
   margin: -99px auto;
   max-width: 1100px;
   box-shadow: 2px 6px 14px 0px grey;
@@ -3388,7 +3391,7 @@ nav ul a span.badge {
 }
 
 .container_2 {
-  background-color: white;
+  background-color: #f2f2f2;
   margin: -99px auto;
   max-width: 1100px;
  /* box-shadow: 2px 6px 14px 0px grey;*/

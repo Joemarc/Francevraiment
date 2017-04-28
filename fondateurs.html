@@ -15,10 +15,12 @@
 
 
   <script src="https://use.fontawesome.com/ce3ebc58f1.js"></script>
+  <script src="js/materialize.min.js"></script>
 </head>
 <body>
 	
-	<nav class="blue darken-4" role="navigation">
+	
+  <nav class="blue darken-4" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo"><img class="logo_width"  src="francevraiment.jpg" alt="FranceVraiment"></a>
       <ul class="hide-on-med-and-down margleft">
@@ -26,7 +28,7 @@
         <li><a class="white-text" href="fondateurs.html">Les Fondateurs</a></li>
         <li><a class="white-text" href="inscription.html">Inscription</a></li>
       </ul>
-			<a href="https://www.facebook.com/lafrancevraiment/">
+      <a href="#">
         <i class="fa fa-facebook-square fa-2x right" aria-hidden="true"></i>   
       </a>
       <ul id="nav-mobile" class="side-nav">
@@ -41,12 +43,12 @@
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('drapeau.jpg');">
   <div class="banner-content">
     <h1>Les Fondateurs</h1>
+    <div class="border-line-title"></div>
     <!-- <p>Very cool stuff, useful and smart</p> -->
     <!-- <a class="btn btn-primary btn-lg">GET IT</a> -->
   </div>
 </div>		
-  <div class="container_2 pad-bot-2">
-    
+  <div class="container_2 pad-bot-2">   
 		<div class="row">
        <div class="col-lg-3 col-sm-3 col-sm-offset-2">
             <div class="card hovercard">
@@ -269,11 +271,22 @@
 	<footer class="page-footer blue darken-4 pad-top">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="col l4 s12 offset-l2">
+          <h3 class="white-text">Contact :</h3>
+          <i class="fa fa-envelope-o white-text" aria-hidden="true">  <strong>contact@francevraiment.fr</strong></i>
+          
+        </div>
+        <div class="col l6 s12 pad-bot">
+          <h5 class="white-text">Newsletter</h5>
+            <form>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">E-mail</label> -->
+                <input type="email" class="form-control white-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted white-text-2">Nous ne partagerons pas votre adresse E-mail</small>
+              </div>
+        </div>
+        <div class="pad-top-2">
+          <p class="white-text center-align">- La France Vraiment – Tous droits réservés 2017 -</p>
         </div>
         <!-- <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
