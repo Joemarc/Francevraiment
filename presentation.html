@@ -73,10 +73,13 @@
         <div class="col l6 s12 pad-bot">
           <h5 class="white-text">Newsletter</h5>
             <form>
-              <div class="form-group">
-                <!-- <label for="exampleInputEmail1">E-mail</label> -->
-                <input type="email" class="form-control white-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted white-text-2">Nous ne partagerons pas votre adresse E-mail</small>
+              <div class="form-group">    
+                <form action="https://formspree.io/lafrancevraiment@gmail.com"
+                    method="POST">
+                  <input type="email" name="_replyto" placeholder="Votre Email">
+                  <input type="submit" value="Envoyer">
+                  <input type="hidden" name="_next" value="//joemarc.github.io/testfrance/remerciements.html" />
+              </form>
               </div>
         </div>
         <div class="pad-top-2">
