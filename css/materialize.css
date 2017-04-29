@@ -5999,6 +5999,7 @@ textarea.materialize-textarea {
   box-shadow: none;
   box-sizing: content-box;
   transition: all 0.3s;
+  color: white;
 }
 
 input:not([type]):disabled, input:not([type])[readonly="readonly"],
