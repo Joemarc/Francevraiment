@@ -3391,6 +3391,10 @@ nav ul a span.badge {
   /*width: 90%;*/
 }
 
+.container_2:hover {
+  border-top: 6px solid #0D47A1;
+ 
+}
 
 .container_3 {
   background-color: #f2f2f2;
